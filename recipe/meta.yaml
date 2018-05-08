@@ -19,7 +19,7 @@ build:
 
 requirements:
   build:
-      - python >= 2.7
+      - python
       - setuptools
   run:
       - python
