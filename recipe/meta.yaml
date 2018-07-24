@@ -1,7 +1,7 @@
 {% set name = "image-meta-tag" %}
-{% set version = "0.7.3" %}
+{% set version = "0.7.5" %}
 {% set giturl = "https://github.com/SciTools-incubator/image-meta-tag" %}
-{% set sha256 = "83c72d950505f44d2eed6638a53efe9407332ccc80b1dcb4820baf90d179928d" %}
+{% set sha256 = "f35f5af51b07f7fb66a0c42799c84815efe96a60840fbaaf676dac54fcd86d90" %}
 
 package:
   name: image-meta-tag
