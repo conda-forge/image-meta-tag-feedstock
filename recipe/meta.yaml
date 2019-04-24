@@ -1,7 +1,7 @@
 {% set name = "image-meta-tag" %}
-{% set version = "0.7.8" %}
+{% set version = "0.7.9" %}
 {% set giturl = "https://github.com/SciTools-incubator/image-meta-tag" %}
-{% set sha256 = "5a79fbe5901e59ae5b7d02a3c1985fb42cefa21b136806b9e36baaf6317e6d22" %}
+{% set sha256 = "01d9d90a60ad6ae75756ef3eeff71cf890add2046078bb1d31af54c13015e259" %}
 
 package:
   name: image-meta-tag
@@ -13,7 +13,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   skip: True  # [win]
   script: python setup.py install --single-version-externally-managed --record record.txt
 
