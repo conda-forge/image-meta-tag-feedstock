@@ -21,7 +21,6 @@ requirements:
   build:
       - python
       - setuptools
-      - matplotlib
   run:
       - python
       - matplotlib
