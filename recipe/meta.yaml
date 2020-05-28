@@ -1,7 +1,7 @@
 {% set name = "image-meta-tag" %}
-{% set version = "0.6.12" %}
+{% set version = "0.7.10" %}
 {% set giturl = "https://github.com/SciTools-incubator/image-meta-tag" %}
-{% set sha256 = "608a46c826c05a24a2cdbd5f7e1b67570823b74c9266d2a7d4823fe5750eb952" %}
+{% set sha256 = "0e17f4d9884042ae3904bff1b9bfc0dd0068158f04e2299172fa69fcba4ff381" %}
 
 package:
   name: image-meta-tag
@@ -49,4 +49,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - malcolmbrooks
+    - melissaebrooks
