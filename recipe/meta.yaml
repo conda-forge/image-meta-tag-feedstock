@@ -1,7 +1,7 @@
 {% set name = "image-meta-tag" %}
-{% set version = "0.7.11" %}
+{% set version = "0.7.12" %}
 {% set giturl = "https://github.com/SciTools-incubator/image-meta-tag" %}
-{% set sha256 = "5cc34f8b7852febd5c2ba6af56493a4e5b139a9cfa534da34e7cdab2509f919d" %}
+{% set sha256 = "a23ebb79e8627d84323ffb41d5de41c90cb49d78cf406175bd7b69299e542351" %}
 
 package:
   name: image-meta-tag
@@ -13,23 +13,23 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
-  skip: True  # [win]
+  number: 0
+  skip: true  # [win]
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   host:
-      - python
-      - setuptools
+    - python
+    - setuptools
   run:
-      - python
-      - matplotlib-base
-      - numpy
-      - pillow
+    - python
+    - matplotlib-base
+    - numpy
+    - pillow
 
 test:
   imports:
-      - ImageMetaTag
+    - ImageMetaTag
 
 about:
   home: https://github.com/SciTools-incubator/image-meta-tag
