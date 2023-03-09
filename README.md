@@ -1,11 +1,11 @@
-About image-meta-tag
-====================
+About image-meta-tag-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/image-meta-tag-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/SciTools-incubator/image-meta-tag
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/image-meta-tag-feedstock/blob/main/LICENSE.txt)
 
 Summary: Image metadata tagging, database and presentation
 
