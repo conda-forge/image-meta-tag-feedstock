@@ -3,15 +3,15 @@ About image-meta-tag-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/image-meta-tag-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/SciTools-incubator/image-meta-tag
+Home: https://github.com/MetOffice/image-meta-tag
 
 Package license: BSD-3-Clause
 
 Summary: Image metadata tagging, database and presentation
 
-Development: https://github.com/SciTools-incubator/image-meta-tag
+Development: https://github.com/MetOffice/image-meta-tag
 
-Documentation: http://scitools-incubator.github.io/image-meta-tag/build/html/index.html
+Documentation: http://metoffice.github.io/image-meta-tag/build/html/index.html
 
 ImageMetaTag is a python package built around a wrapper for savefig in matplotlib,
 which adds metadata tags to supported image file formats.
