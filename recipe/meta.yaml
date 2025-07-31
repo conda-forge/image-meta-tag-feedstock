@@ -1,6 +1,6 @@
 {% set name = "image-meta-tag" %}
 {% set version = "0.8.2" %}
-{% set giturl = "https://github.com/SciTools-incubator/image-meta-tag" %}
+{% set giturl = "https://github.com/MetOffice/image-meta-tag" %}
 {% set sha256 = "81fbdcc143cf08b53bbc32d57098643e3cd01db7a223c05c56017c7af3123a79" %}
 
 package:
@@ -13,7 +13,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 2
   skip: true  # [win]
   script: python setup.py install --single-version-externally-managed --record record.txt
 
@@ -32,7 +32,7 @@ test:
     - ImageMetaTag
 
 about:
-  home: https://github.com/SciTools-incubator/image-meta-tag
+  home: https://github.com/MetOffice/image-meta-tag
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
@@ -44,8 +44,8 @@ about:
     images and their metadata. The image metadata can be used to produce an
     ImageMetaTag.ImageDict object: a structured/heirachical dictionary of dictionaries which
     can be used to easily create web pages to present large numbers of images.
-  doc_url: http://scitools-incubator.github.io/image-meta-tag/build/html/index.html
-  dev_url: https://github.com/SciTools-incubator/image-meta-tag
+  doc_url: http:/metoffice.github.io/image-meta-tag/build/html/index.html
+  dev_url: https://github.com/MetOffice/image-meta-tag
 
 extra:
   recipe-maintainers:
