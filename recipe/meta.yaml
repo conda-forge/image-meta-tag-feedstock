@@ -1,7 +1,7 @@
 {% set name = "image-meta-tag" %}
-{% set version = "0.8.2" %}
+{% set version = "0.8.3" %}
 {% set giturl = "https://github.com/MetOffice/image-meta-tag" %}
-{% set sha256 = "81fbdcc143cf08b53bbc32d57098643e3cd01db7a223c05c56017c7af3123a79" %}
+{% set sha256 = "1896dde0a73a68efb45abf86949967f2b59fc068ca53056a163aef275bd15ad8" %}
 
 package:
   name: image-meta-tag
