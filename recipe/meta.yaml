@@ -1,7 +1,7 @@
 {% set name = "image-meta-tag" %}
 {% set version = "0.8.3" %}
 {% set giturl = "https://github.com/MetOffice/image-meta-tag" %}
-{% set sha256 = "1896dde0a73a68efb45abf86949967f2b59fc068ca53056a163aef275bd15ad8" %}
+{% set sha256 = "9d4ac2457de8c371f17554ae8a29ed3638b7cfb6d1d71db119bd621dee3a6108" %}
 
 package:
   name: image-meta-tag
@@ -13,7 +13,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 3
+  number: 4
   skip: true  # [win]
   script: python setup.py install --single-version-externally-managed --record record.txt
 
